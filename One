@@ -1,0 +1,26 @@
+#include <iostream>
+#include<cmath>
+#include<iomanip>
+using namespace std; 
+
+int main()
+{int Op;
+double num, tot=0;
+ cout << "Please Enter:\n 1 for Addition\n 2 for Substraction\n 3 for Multiplication \n 4 for Division " ;
+ cin >>Op;
+ switch(op){
+ case 1:
+        cout<< "Please enter numbers to add and Enter 0 to stop adding: ";
+    cin >> num;
+    for(num!=0)
+    { tot=tot+num;
+    cin >> num;
+        
+    }
+    cout<<"The total of the numbers is "<<tot<<endl;
+    break;
+    
+}
+    
+}
+ 
